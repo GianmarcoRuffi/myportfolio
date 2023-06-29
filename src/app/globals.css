@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+
+
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -42,6 +45,7 @@ font-size: 84px;
 font-weight: bold;
 
 }
+
 
 .intro h2 {
 
@@ -88,3 +92,59 @@ font-size: 30px;
       li a:hover {
         color:  cornflowerblue;
       }
+
+
+      /* Responsiveness */
+
+      @media only screen and (max-width: 767px)
+
+{
+
+    .intro h1 {
+
+        font-size: 64px;
+        font-weight: bold;
+        
+        }
+
+
+        .intro h2 {
+
+            font-size: 34px;
+            font-weight: bold;
+            
+            }
+        
+            .intro p {
+        
+        
+        font-size: 20px;
+        
+            }
+
+            ul {
+
+        
+                color: white;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+               
+            }
+
+            li {
+
+                padding: 3%;
+        
+            }
+        
+            li a {
+    
+                color: white;
+                text-align: center;
+                padding: 5px;
+                text-decoration: none;
+                font-size: 60px;
+              }
+    
+}
